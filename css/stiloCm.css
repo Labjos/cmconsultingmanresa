@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  background-color: #044485;
+}
+#btnMenu {
+  display: none;
+}
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid #00ffff;
+}
+header label:hover {
+  cursor: pointer;
+  background-color: rgba(247, 115, 7, 0.3);
+}
+#logoCm {
+  width: 300px;
+  height: 100px;
+  background-image: url(../image/cmConsulting.jpg);
+  background-size: cover;
+  margin-left: 80px;
+}
+.menu ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.menu li {
+  border-right: 1px solid #00ffff;
+}
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: #00ffff;
+  text-decoration: none;
+}
+.menu li a:hover,
+li a :active {
+  background: rgba(250, 144, 5, 0.3);
+  color: #fff;
+}
+#asesor {
+  width: 200px;
+  height: 70px;
+  background-image: url(../image/asesor.png);
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+#presentacion {
+  display: flex;
+  background-color: #044485;
+  margin-top: 3px;
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 599px) {
+  header label {
+    display: block;
+  }
+  .menu {
+    position: absolute;
+    background-color: #044485;
+    width: 100%;
+    margin-left: -100%;
+    transition: all 0.5s;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu li {
+    border-top: 1px solid #00ffff;
+  }
+  #btnMenu:checked ~ .menu {
+    margin: 0px;
+  }
+}
