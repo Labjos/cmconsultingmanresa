@@ -36,7 +36,7 @@ header label:hover {
   padding: 0;
   display: flex;
   justify-content: flex-end;
-  margin-left: 100px;
+  margin-left: 92px;
   margin-top: 30px;
 }
 .menu li {
@@ -59,16 +59,63 @@ li a :active {
   background-image: url(../image/asesor.png);
   background-size: cover;
   margin-top: 20px;
-  margin-left: 80px;
+  margin-left: 200px;
 }
 #presentacion {
   display: flex;
   background-color: #044485;
   margin-top: 3px;
   width: 100%;
-  height: 500px;
+  height: 645px;
 }
-
+#tuAsesor {
+  width: 36%;
+  height: 645px;
+  background-color: #d8d8d8;
+  border: 2px solid #fff;
+}
+#slider {
+  display: block;
+  width: 64%;
+  height: 546px;
+}
+#nosotros {
+  display: flex;
+  width: 100%;
+  height: 605px;
+  margin-top: 2px;
+}
+.presentacion {
+  width: 70%;
+  height: auto;
+  font-size: 25px;
+  color: #044485;
+  margin-top: 100px;
+  margin-left: 90px;
+}
+#textoNos {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  color: #00ffff;
+  font-size: 26px;
+  margin-top: 30px;
+}
+#queNosotros {
+  width: 70%;
+  background-color: #d8d8d8;
+}
+#asesorNosotros {
+  width: 30%;
+  background-color: #d8d8d8;
+  border-left: 3px solid #fff;
+}
+footer {
+  background-color: #044485;
+  width: 100%;
+  height: 150px;
+  margin-top: 3px;
+}
 @media (max-width: 599px) {
   header label {
     display: block;
