@@ -6,7 +6,7 @@ body {
 header {
   display: flex;
   width: 100%;
-  height: 110px;
+  height: 105px;
   background-color: #044485;
 }
 #btnMenu {
@@ -30,6 +30,11 @@ header label:hover {
   background-size: cover;
   margin-left: 80px;
 }
+.menu {
+  width: 500px;
+  height: 30px;
+  margin-left: 240px;
+}
 .menu ul {
   margin: 0px;
   list-style: none;
@@ -47,6 +52,7 @@ header label:hover {
   padding: 15px 20px;
   color: #00ffff;
   text-decoration: none;
+  font-size: 15px;
 }
 .menu li a:hover,
 li a :active {
@@ -59,18 +65,27 @@ li a :active {
   background-image: url(../image/asesor.png);
   background-size: cover;
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 20px;
 }
+#asesorDos {
+  width: 200px;
+  height: 70px;
+  background-image: url(../image/asesor.png);
+  background-size: cover;
+  margin-top: 0px;
+  margin-left: 130px;
+}
+
 #presentacion {
   display: flex;
   background-color: #044485;
   margin-top: 3px;
   width: 100%;
-  height: 645px;
+  height: 520px;
 }
 #tuAsesor {
   width: 36%;
-  height: 645px;
+  height: 521px;
   background-color: #d8d8d8;
   border: 2px solid #fff;
 }
@@ -82,15 +97,16 @@ li a :active {
 #nosotros {
   display: flex;
   width: 100%;
-  height: 605px;
+  height: 490px;
   margin-top: 2px;
 }
-.presentacion {
+.textPresentacion {
   width: 70%;
   height: auto;
-  font-size: 25px;
+  font-size: 24px;
   color: #044485;
-  margin-top: 100px;
+  margin: 0px;
+  margin-top: 40px;
   margin-left: 90px;
 }
 #textoNos {
@@ -99,23 +115,92 @@ li a :active {
   text-align: center;
   color: #00ffff;
   font-size: 26px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #queNosotros {
-  width: 70%;
+  display: flex "";
+  width: 71%;
   background-color: #d8d8d8;
 }
+#conceptoCm {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+.textConcept {
+  width: 600px;
+  height: auto;
+  font-size: 20px;
+  color: #044485;
+  margin: 0px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+#imgOficce {
+  margin-left: 650px;
+}
+#imgConcept {
+  margin-top: 100px;
+  margin-left: 50px;
+}
 #asesorNosotros {
-  width: 30%;
+  width: 29%;
   background-color: #d8d8d8;
   border-left: 3px solid #fff;
 }
+.textAsesor {
+  width: 300px;
+  height: auto;
+  font-size: 27px;
+  color: #044485;
+  margin: 0px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.firmaAsesor {
+  width: 300px;
+  height: auto;
+  font-size: 18px;
+  color: #044485;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#fotoAsesor {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
 footer {
+  display: flex;
   background-color: #044485;
   width: 100%;
-  height: 150px;
+  height: 110px;
   margin-top: 3px;
 }
+#redesSociales {
+  margin-left: 50px;
+}
+.iconoRed {
+  margin-top: 35px;
+  margin-left: 10px;
+}
+#map {
+  color: #00ffff;
+  font-size: 14px;
+  margin-top: 7px;
+  margin-left: 70px;
+}
+#contact {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.textContact {
+  margin: 0;
+}
+
 @media (max-width: 599px) {
   header label {
     display: block;
